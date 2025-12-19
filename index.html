@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessible Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Interactive Photo Gallery</h1>
+
+  <div id="image" aria-live="polite">
+    Hover over or focus on an image below to display it here.
+  </div>
+
+  <div class="gallery" aria-label="Photo gallery of people">
+    <figure>
+      <img src="images3/img1.jpg"
+           alt="A young woman standing in front of tall city buildings" />
+    </figure>
+
+    <figure>
+      <img src="images3/img2.jpg"
+           alt="A woman in a forest cutting wood with trees around her" />
+    </figure>
+
+    <figure>
+      <img src="images3/img3.jpg"
+           alt="A group of women surrounding a woman wearing a colorful Indian sari and smiling" />
+    </figure>
+
+    <figure>
+      <img src="images3/img4.jpg"
+           alt="A family with a mother, father, and three daughters standing together on a farm" />
+    </figure>
+
+    <figure>
+      <img src="images3/img5.jpg"
+           alt="Two young men and a woman sitting together on top of a car outdoors" />
+    </figure>
+
+    <figure>
+      <img src="images3/img6.jpg"
+           alt="A woman standing in a garden working on a laptop computer" />
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
